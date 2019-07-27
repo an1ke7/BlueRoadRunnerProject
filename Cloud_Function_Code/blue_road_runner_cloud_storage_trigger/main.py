@@ -1,4 +1,4 @@
-def main(event, context):
+def  blue_box_financial_processing1(event, context):
     """Triggered by a change to a Cloud Storage bucket.
     Args:
          event (dict): Event payload.
