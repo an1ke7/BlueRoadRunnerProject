@@ -4,7 +4,7 @@ def main(event, context):
          event (dict): Event payload.
          context (google.cloud.functions.Context): Metadata for the event.
     """
-	file = event
+	#file = event
 	#print(f"Processing file: {file['name']}.")
 	print('Created: {}'.format(data['timeCreated']))
 	print('Updated: {}'.format(data['updated']))
