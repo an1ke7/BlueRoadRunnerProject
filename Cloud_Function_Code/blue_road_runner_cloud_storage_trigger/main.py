@@ -1,10 +1,2 @@
 def  blue_box_financial_processing1(event, context):
-    """Triggered by a change to a Cloud Storage bucket.
-    Args:
-         event (dict): Event payload.
-         context (google.cloud.functions.Context): Metadata for the event.
-    """
-	#file = event
-	#print(f"Processing file: {file['name']}.")
-	print('Created: {}'.format(data['timeCreated']))
-	print('Updated: {}'.format(data['updated']))
+	print(1)
