@@ -5,6 +5,6 @@ def hello_gcs(event, context):
          context (google.cloud.functions.Context): Metadata for the event.
     """
     file = event
-    print(f"Processing file: {file['name']}.")
+    #print(f"Processing file: {file['name']}.")
     print('Created: {}'.format(data['timeCreated']))
 	print('Updated: {}'.format(data['updated']))
