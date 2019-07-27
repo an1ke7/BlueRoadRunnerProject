@@ -1,0 +1,11 @@
+##PROJECT BLUE ROAD RUNNER 
+##MODULE BLUE BOX
+
+##CHANGELOG
+
+#v0.01
+- Dependencies loaded into conda "dev" environment
+- Load data from Excel sheet "Master" under "Transactions", "Category" and "Account"
+- Load into pandas 
+- save in /Data/Hold folder
+- push into GCS storage bucket: gs://blue-road-runner-cloud-storage/blue-box/current-personal-finance
