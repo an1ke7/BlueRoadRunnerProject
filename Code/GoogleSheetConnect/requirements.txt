@@ -1,5 +1,5 @@
 pickle
 os.path
-build
-InstalledAppFlow
-Request
+googleapiclient.discovery
+google_auth_oauthlib.flow
+google.auth.transport.requests
